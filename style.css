@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:  30px;
+    color:black;
+}
+
+.clock{
+    display: flex;
+    position: relative;
+}
+
+.clock div{
+    margin: 5px;
+}
+
+.clock div span{
+    height:100px;
+    width: 100px;
+    background-color: #3EA496;
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.clock div .text{
+    height:40px;
+    font-size:18px;
+    letter-spacing:3px;
+    background-color:rgba(98, 222, 222, 0.677);
+    font-weight: bold;
+    color: black;
+}
+
+
+.clock #ampm{
+    position: absolute;
+    height:40px;
+    width:30px;
+    font-size:18px;
+    bottom:0;
+    top:50px; 
+    background-color:green;
+    color:black;
+    font-weight: bold;
+}
